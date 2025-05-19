@@ -5,21 +5,6 @@ I sourced this dataset from Kaggle and loaded it into a SQL database to perform 
 
 ---
 
-## 📖 Table of Contents
-
-1. [About](#about)  
-2. [Dataset](#dataset)  
-3. [Data Cleaning & Preparation](#data-cleaning--preparation)  
-4. [SQL Analysis](#sql-analysis)  
-5. [Prerequisites](#prerequisites)  
-6. [Setup & Usage](#setup--usage)  
-7. [Project Structure](#project-structure)  
-8. [Next Steps](#next-steps)  
-9. [License](#license)  
-10. [Contact](#contact)  
-
----
-
 ## 🔍 About
 
 This project explores COVID-19 case data for India using only SQL. You’ll learn how to load a CSV into your database, clean and standardize fields, then write queries to:
