@@ -67,13 +67,4 @@ In **SQL Covid.sql**, you’ll find queries such as:
          SUM(Recovered)   AS total_recovered,
          SUM(Deaths)      AS total_deaths
     FROM covid_clean
-   GROUP BY Date;```
-
-- **State-wise Rankings:**:  
-
-```SELECT State,
-       SUM(Confirmed) AS cases,
-       RANK() OVER (ORDER BY SUM(Confirmed) DESC) AS rank
-  FROM covid_clean
- GROUP BY State;
-```
+   GROUP BY Date;
