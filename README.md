@@ -71,8 +71,9 @@ In **SQL Covid.sql**, you’ll find queries such as:
 
 - **State-wise Rankings:**:  
 
-SELECT State,
+```SELECT State,
        SUM(Confirmed) AS cases,
        RANK() OVER (ORDER BY SUM(Confirmed) DESC) AS rank
   FROM covid_clean
  GROUP BY State;
+```
